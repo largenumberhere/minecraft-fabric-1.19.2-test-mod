@@ -31,7 +31,7 @@ public class ModItems implements  ModInitializer  {
             .icon(() -> new ItemStack(Items.APPLE))
             .build();
 
-    public  static final Item SUBSTANCE = register("subtance", Item::new, (new Item.Settings()).group(ITEM_GROUP));
+    public  static final Item SUBSTANCE = register("substance", Item::new, (new Item.Settings()).group(ITEM_GROUP));
 
 
     @Override
