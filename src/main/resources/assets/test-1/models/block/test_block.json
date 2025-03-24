@@ -1,0 +1,7 @@
+{
+  "parent" : "minecraft:block/cube_all",
+  "textures" : {
+    "all" : "test-1:block/test_block"
+  }
+
+}

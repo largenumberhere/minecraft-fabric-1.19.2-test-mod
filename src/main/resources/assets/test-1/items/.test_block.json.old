@@ -1,0 +1,8 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model": "test-1:block/test_block"
+  }
+
+
+}
