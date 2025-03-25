@@ -9,12 +9,12 @@ import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
 
-public class ModItems implements  ModInitializer  {
-    public static ModItems create() {
-        return new ModItems();
+public class ModItemsRegisry implements  ModInitializer  {
+    public static ModItemsRegisry create() {
+        return new ModItemsRegisry();
     }
 
-    private ModItems() {}
+    private ModItemsRegisry() {}
 
     private static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.create(new Identifier("test1", "test1_group"))
             .icon(() -> new ItemStack(Items.APPLE))

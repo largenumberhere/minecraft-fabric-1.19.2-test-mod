@@ -7,12 +7,12 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 
 
-public class ModBlocks implements ModInitializer {
-    public static ModBlocks create() {
-        return new ModBlocks();
+public class ModBlocksRegistry implements ModInitializer {
+    public static ModBlocksRegistry create() {
+        return new ModBlocksRegistry();
     }
 
-    private ModBlocks() {}
+    private ModBlocksRegistry() {}
 
     public  static final Block TEST_BLOCK = BlockRegisterFactory.INSTANCE.register(
             "test_block",
